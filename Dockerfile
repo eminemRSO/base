@@ -1,5 +1,5 @@
 FROM maven:3.6.3-openjdk-14 AS build
-COPY ./ /app
+COPY ./rso-image-catalog-master /app
 WORKDIR /app
 RUN mvn clean package -U
 
