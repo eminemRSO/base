@@ -3,8 +3,8 @@ services:
    
   services:
     container_name: serviceDB
-    image: mista123/servicesdbbase:latest
-    #build: .
+    #image: mista123/servicesdbbase:latest
+    build: .
     networks:
       - net
     ports:

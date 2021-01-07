@@ -9,9 +9,9 @@ kumuluzee:
       port: 8080
   datasources:
     - jndi-name: jdbc/ImageMetadataDS
-      connection-url: jdbc:postgresql://dumbo.db.elephantsql.com:5432/kvkhwqug
-      username: kvkhwqug
-      password: 8vMXgLsvHg51PwmzCh0-R0EWoSW_CT-w
+      connection-url: jdbc:postgresql://dumbo.db.elephantsql.com:5432/uxrnzyhj
+      username: uxrnzyhj
+      password: be5Tp9DaILf4frMcZ0Z-OHRLGHuaGfAI
   health:
     checks:
       data-source-health-check:
