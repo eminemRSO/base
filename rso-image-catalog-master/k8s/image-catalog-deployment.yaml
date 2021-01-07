@@ -17,7 +17,7 @@ spec:
           name: image-catalog
           env:
             - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
-              value: jdbc:postgres://dumbo.db.elephantsql.com:5432/uxrnzyhj
+              value: jdbc:postgresql://dumbo.db.elephantsql.com:5432/uxrnzyhj
             - name: KUMULUZEE_DATASOURCES0_USERNAME
               value: uxrnzyhj
             - name: KUMULUZEE_DATASOURCES0_PASSWORD
