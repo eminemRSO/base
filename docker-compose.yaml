@@ -3,7 +3,8 @@ services:
    
   services:
     container_name: serviceDB
-    image: mista123/servicesdbbase:latest
+    #image: mista123/servicesdbbase:latest
+    build: .
     networks:
       - net
     depends_on:
