@@ -11,7 +11,7 @@ kumuluzee:
     - jndi-name: jdbc/ImageMetadataDS
       connection-url: jdbc:postgresql://dumbo.db.elephantsql.com:5432/kvkhwqug
       username: kvkhwqug
-      password: 5b6doJomUsI-wPjj11Ei36jJmWkBKEtq
+      password: 8vMXgLsvHg51PwmzCh0-R0EWoSW_CT-w
   health:
     checks:
       data-source-health-check:
