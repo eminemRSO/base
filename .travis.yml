@@ -12,8 +12,8 @@ cache:
 
 env:
   global:
-    - DOCKER_IMAGE=mista123/servicesdb:$TRAVIS_JOB_NUMBER
-    - DOCKER_IMAGEL=mista123/servicesdb:latest
+    - DOCKER_IMAGE=mista123/servicesdbase:$TRAVIS_JOB_NUMBER
+    - DOCKER_IMAGEL=mista123/servicesdbbase:latest
 
 script:
   - docker build -t "$DOCKER_IMAGE" .
