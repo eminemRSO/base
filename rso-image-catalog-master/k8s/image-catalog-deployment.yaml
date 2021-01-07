@@ -17,11 +17,11 @@ spec:
           name: service-db
           env:
             - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
-              value: jdbc:postgresql://dumbo.db.elephantsql.com:5432/uxrnzyhj
+              value: jdbc:postgresql://hattie.db.elephantsql.com:5432/kvkhwqug
             - name: KUMULUZEE_DATASOURCES0_USERNAME
-              value: uxrnzyhj
+              value: kvkhwqug
             - name: KUMULUZEE_DATASOURCES0_PASSWORD
-              value: SMCT2IHb0l3RiFTtnFUJ1HnGPXemWkWp
+              value: 5b6doJomUsI-wPjj11Ei36jJmWkBKEtq
           ports:
             - containerPort: 8080
               name: server
